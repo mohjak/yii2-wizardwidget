@@ -1,3 +1,7 @@
+## 1.3.2 (September 23, 2017)
+  - ♻️  Change namespace.
+  - Fix issue with step description and CHANGELOG auditing.
+
 ## 1.3.1 (September 23, 2017)
   - 📚  Changelog auditing, and apply fix to show step description.
   - Release 1.3.0 with changes to layout and styles

@@ -4,7 +4,7 @@
  * @package yii2-wizardwidget
  * @version 1.0.0
  */
-namespace drsdre\wizardwidget;
+namespace mohjak\wizardwidget;
 
 use yii;
 use yii\base\Widget;
