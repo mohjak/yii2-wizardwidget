@@ -1,5 +1,9 @@
+## 1.3.3 (September 23, 2017)
+  - 📚  Add some documentation changes.
+  - ♻️ Change namespace.
+
 ## 1.3.2 (September 23, 2017)
-  - ♻️  Change namespace.
+  - ♻ Change namespace.
   - Fix issue with step description and CHANGELOG auditing.
 
 ## 1.3.1 (September 23, 2017)

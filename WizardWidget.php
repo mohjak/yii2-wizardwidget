@@ -18,7 +18,7 @@ use yii\helpers\Url;
  * @author A.F.Schuurman <andre.schuurman+yii2-wizardwidget@gmail.com>
  * @since 1.0
  * @author Mohammad Jaqmaqji <mohjak@gmail.com>
- * @since 1.2.3
+ * @since 1.3.0
  */
 class WizardWidget extends Widget {
 
