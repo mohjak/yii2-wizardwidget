@@ -133,7 +133,7 @@ class WizardWidget extends Widget {
 
             // Add buttons to tab content
             $step_navigation_area .= '<div class="step-navigation-area">';
-            $step_navigation_area .= '<h1 class="step-description">Select Recipients List</h1>';
+            $step_navigation_area .= '<h1 class="step-description">'.$step["description"].'</h1>';
             $step_navigation_area .= Html::ul($buttons, ['class' => 'step-navigation', 'encode' => false]);
             $step_navigation_area .= '</div>';
 
