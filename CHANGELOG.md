@@ -1,3 +1,7 @@
+## 1.3.1 (September 23, 2017)
+  - 📚  Changelog auditing, and apply fix to show step description.
+  - Release 1.3.0 with changes to layout and styles
+
 ## 1.3.0 (September 23, 2017)
   - 📚  Update .bumb_version.sh and composer.json
   - 📚  Update README file.
