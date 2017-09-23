@@ -6,6 +6,10 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "A.F.Schuurman",
+            "email": "andre.schuurman+yii2-wizardwidget@gmail.com"
+        },
+        {
             "name": "Mohammad Jaqmaqji",
             "email": "mohjak@gmail.com"
         }

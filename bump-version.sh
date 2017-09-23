@@ -57,7 +57,7 @@ if [ -f VERSION ]; then
     echo -e "${NOTICE_FLAG} Will set new version to be ${WHITE}$INPUT_STRING"
     echo $INPUT_STRING > VERSION
     echo "## $INPUT_STRING ($NOW)" > tmpfile
-    git log --pretty=format:"  - %s" "v$BASE_STRING"...HEAD >> tmpfile
+    git log --pretty=format:"  - %s" "$BASE_STRING"...HEAD >> tmpfile
     echo "" >> tmpfile
     echo "" >> tmpfile
     cat CHANGELOG.md >> tmpfile
@@ -67,7 +67,7 @@ if [ -f VERSION ]; then
     echo -e "$PUSHING_MSG"
     git add CHANGELOG.md VERSION
     git commit -m "Bump version to ${INPUT_STRING}."
-    git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
+    git tag -a -m "Tag version ${INPUT_STRING}." "$INPUT_STRING"
     git push origin --tags
 else
     echo -e "${WARNING_FLAG} Could not find a VERSION file."
@@ -88,8 +88,8 @@ else
         read
         echo -e "$PUSHING_MSG"
         git add VERSION CHANGELOG.md
-        git commit -m "Add VERSION and CHANGELOG.md files, Bump version to v0.1.0."
-        git tag -a -m "Tag version 0.1.0." "v0.1.0"
+        git commit -m "Add VERSION and CHANGELOG.md files, Bump version to 0.1.0."
+        git tag -a -m "Tag version 0.1.0." "0.1.0"
         git push origin --tags
     fi
 fi
