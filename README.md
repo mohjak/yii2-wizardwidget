@@ -2,6 +2,7 @@ Yii2 Wizard Widget
 ==================
 Multi step wizard widget using tabs to guide a user through steps to complete a task. Based on the Form wizard (using tabs) from lukepzak (see http://bootsnipp.com/snippets/featured/form-wizard-using-tabs).
 
+This fork is created to be used in email marketing platform.
 
 Installation
 ------------
@@ -11,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist drsdre/yii2-wizardwidget "*"
+php composer.phar require --prefer-dist mohjak/yii2-wizardwidget "*"
 ```
 
 or add
 
 ```
-"drsdre/yii2-wizardwidget": "*"
+"mohjak/yii2-wizardwidget": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -27,10 +28,12 @@ Wizard configuration
 --------------------
 
 -  `id`: *string* html id of the wizard widget
+-  `campaing_name`: *string* name of the campaing
 -  `steps`: *array* definition of the wizard steps. Array key will be used as the hyperlinks to the steps. 
 
 Each step can have the following parameters:
 -  `title`: *string required* title of the step (shown when hoovering over step icon)
+-  `description`: *string required* description of the step (shown at step navigation bar)
 -  `icon`: *string required* step icon code (see Glyphicon or Font awesome codes)
 -  `content`: *string required* HTML content of the step page 
 -  `skippable`: *boolean optional* allow to skip over a step 
@@ -93,5 +96,5 @@ $wizard_config = [
 ];
 ?>
 
-<?= \drsdre\wizardwidget\WizardWidget::widget($wizard_config); ?>
+<?= \mohjak\wizardwidget\WizardWidget::widget($wizard_config); ?>
 ```
