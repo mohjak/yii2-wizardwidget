@@ -142,7 +142,9 @@ class WizardWidget extends Widget
 
             unset($step_navigation_area);
 
+            $tab_content .= '<div class="step-content">';
             $tab_content .= $step['content'];
+            $tab_content .= '</div>';
 
             // Finish tab
             $tab_content .= '</div>';
