@@ -1,6 +1,10 @@
+## 1.3.4 (September 25, 2017)
+  - Fix license to be as original repo.
+  - Documentation
+
 ## 1.3.3 (September 23, 2017)
   - 📚  Add some documentation changes.
-  - ♻️ Change namespace.
+  - ♻ Change namespace.
 
 ## 1.3.2 (September 23, 2017)
   - ♻ Change namespace.

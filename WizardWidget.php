@@ -20,8 +20,8 @@ use yii\helpers\Url;
  * @author Mohammad Jaqmaqji <mohjak@gmail.com>
  * @since 1.3.0
  */
-class WizardWidget extends Widget {
-
+class WizardWidget extends Widget
+{
     /**
      * @var string widget html id
      */
@@ -57,7 +57,8 @@ class WizardWidget extends Widget {
     /**
      * Main entry to execute the widget
      */
-    public function run() {
+    public function run()
+    {
         parent::run();
         WizardWidgetAsset::register($this->getView());
 
@@ -229,7 +230,8 @@ class WizardWidget extends Widget {
      *
      * @return string
      */
-    protected function navButton($button_type, $step, $button_id) {
+    protected function navButton($button_type, $step, $button_id)
+    {
         // Setup a unique button id
         $options = ['id' => $button_id.$button_type];
 

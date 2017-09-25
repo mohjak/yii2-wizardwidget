@@ -1,5 +1,5 @@
-Yii2 Wizard Widget
-==================
+Yii2 Wizard Widget for Email Marketing Platform
+===============================================
 Multi step wizard widget using tabs to guide a user through steps to complete a task. Based on the Form wizard (using tabs) from lukepzak (see http://bootsnipp.com/snippets/featured/form-wizard-using-tabs).
 
 This fork is created to be used in email marketing platform.
