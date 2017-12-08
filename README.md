@@ -28,7 +28,7 @@ Wizard configuration
 --------------------
 
 -  `id`: *string* html id of the wizard widget
--  `campaing_name`: *string* name of the campaing
+-  `campaign_name`: *string* name of the campaign
 -  `steps`: *array* definition of the wizard steps. Array key will be used as the hyperlinks to the steps. 
 
 Each step can have the following parameters:
