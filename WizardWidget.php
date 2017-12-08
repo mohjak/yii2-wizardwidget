@@ -145,7 +145,6 @@ class WizardWidget extends Widget
             $tab_content .= '<div class="step-content">';
             $tab_content .= $step['content'];
             $tab_content .= '</div>';
-
             // Finish tab
             $tab_content .= '</div>';
 
@@ -203,7 +202,7 @@ class WizardWidget extends Widget
         echo '<ul class="nav nav-tabs steps" role="tablist">'.$wizard_line.'</ul>';
 
         $save_campaign .= '<div class="save-campaign">';
-        $save_campaign .= Html::a('Save Campaign', '#save-campaign');
+        $save_campaign .= Html::button('Save Campaign', ['type' => 'submit', 'id' => 'wizard-save']);
         $save_campaign .=  '</div>';
 
         echo $save_campaign;
