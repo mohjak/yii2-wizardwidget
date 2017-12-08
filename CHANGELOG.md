@@ -1,3 +1,14 @@
+## 1.4.0 (December 08, 2017)
+  - Change save button to submit.
+  - ✨ Make save button submit.
+  - Merge branch 'step-content' into develop.
+  - ✨ Add step content structure.
+  - Merge 'hotfix-1.3.4' Change license to accept orig
+  - Documentation.
+  - Change namespace.
+  - Changelog auditing, and apply fix to show step description.
+  - Release-1.3
+
 ## 1.3.4 (September 25, 2017)
   - Fix license to be as original repo.
   - Documentation
